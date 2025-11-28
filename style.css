@@ -5,7 +5,7 @@
 @media (prefers-color-scheme: light) {
   body {
     --bg-color: #f8f8f8;
-    --primary-color: #262262;
+    --primary-color: #db1769;
     --primary-contrast: #fff;
     --primary-shadow: rgba(0,0,0,0.04);
     --secondary-color: #222;
@@ -16,9 +16,9 @@
 @media (prefers-color-scheme: dark) {
   body {
     --bg-color: #f8f8f8;
-    --primary-color: #5f55e7;
+    --primary-color: #ff3292;
     --primary-contrast: #fff;
-    --secondary-color: #262262;
+    --secondary-color: #22625f;
     --secondary-contrast: #ffffff;
   }
 }
