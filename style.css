@@ -8,8 +8,8 @@
     --primary-color: #db1769;
     --primary-contrast: #fff;
     --primary-shadow: rgba(0,0,0,0.04);
-    --secondary-color: #222;
-    --secondary-contrast: #bc8dc0;
+    --secondary-color: white;
+    --secondary-contrast: black;
   }
 }
 
@@ -20,6 +20,7 @@
     --primary-contrast: #fff;
     --secondary-color: #22625f;
     --secondary-contrast: #ffffff;
+    --primary-shadow: rgba(0,0,0,0.04);
   }
 }
 
@@ -87,7 +88,8 @@ main {
 }
 
 .features article {
-  background: var(--primary-contrast);
+  background: var(---secondary-color);
+  color: var(--secondary-contrast);
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 8px 24px var(--primary-shadow);
