@@ -6,7 +6,7 @@
   body {
     --bg-color: #f8f8f8;
     --primary-color: #db1769;
-    --primary-contrast: #fff;
+    --primary-contrast:black;
     --primary-shadow: rgba(0,0,0,0.04);
     --secondary-color: white;
     --secondary-contrast: black;
@@ -15,10 +15,10 @@
 
 @media (prefers-color-scheme: dark) {
   body {
-    --bg-color: #f8f8f8;
+    --bg-color: black;
     --primary-color: #ff3292;
-    --primary-contrast: #fff;
-    --secondary-color: #22625f;
+    --primary-contrast:black;
+    --secondary-color: #62224f;
     --secondary-contrast: #ffffff;
     --primary-shadow: rgba(0,0,0,0.04);
   }
